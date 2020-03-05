@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ListaDeComprasVersion2</string>
+    <string name="ver_lista">Ver Lista</string>
+    <string-array name="unidad">
+        <item>Otro</item>
+        <item>Kilos</item>
+        <item>Litros</item>
+        <item>Cajas</item>
+        <item>Paquetes</item>
+        <item>Unidades</item>
+    </string-array>
+</resources>
