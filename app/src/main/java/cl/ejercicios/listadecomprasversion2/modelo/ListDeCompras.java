@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ListDeCompras {
     private static ListDeCompras instancia=new ListDeCompras();
     private ArrayList<Producto> listaDeCompras;
-
+/*
     private ListDeCompras()
     {
         listaDeCompras=new ArrayList<>();
@@ -37,5 +37,5 @@ public class ListDeCompras {
                 i--;
             }
         }
-    }
+    }*/
 }

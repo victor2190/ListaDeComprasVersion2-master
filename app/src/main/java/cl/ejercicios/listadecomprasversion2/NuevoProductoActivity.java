@@ -25,12 +25,9 @@ public class NuevoProductoActivity extends AppCompatActivity {
     public void ingresarProducto(View view)
     {
         String nombre=((TextView) findViewById(R.id.ingresarNombre)).getText().toString();
-        String cantidadStr=
-                ((TextView)findViewById(R.id.ingresarCantidad)).getText().toString();
-        String unidad=
-                ((Spinner)findViewById(R.id.ingresarUnidad)).getSelectedItem().toString();
-        String unidadNueva=
-                ((TextView)findViewById(R.id.otraUnidad)).getText().toString();
+        String cantidadStr=((TextView)findViewById(R.id.ingresarCantidad)).getText().toString();
+        String unidad=((Spinner)findViewById(R.id.ingresarUnidad)).getSelectedItem().toString();
+        String unidadNueva=((TextView)findViewById(R.id.otraUnidad)).getText().toString();
         int cantidad=0;
         try{
             cantidad=Integer.parseInt(cantidadStr);

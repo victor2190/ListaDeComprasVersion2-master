@@ -59,7 +59,7 @@ public class DetallesActivity extends AppCompatActivity {
         String mensaje=helper.cambiarEstado(producto);
         Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show();
         setResult(RESULT_OK,intent);
-        
+
         finish();
     }
 }
