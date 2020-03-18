@@ -36,6 +36,7 @@ public class ListaProductosActivity extends ListActivity {
 
         ArrayAdapter<Producto> listaAdapter= new ArrayAdapter<Producto>(this,
                 android.R.layout.simple_expandable_list_item_1,productoList);
+
         lista.setAdapter(listaAdapter);
     }
 

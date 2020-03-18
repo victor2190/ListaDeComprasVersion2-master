@@ -134,7 +134,7 @@ public class ComprasDatabaseHelper extends SQLiteOpenHelper {
         try
         {
             getWritableDatabase().execSQL(sqlTxt);
-            return "Ae eliminaron los productos comprados";
+            return "Se eliminaron los productos comprados";
         }
         catch (SQLException ex)
         {

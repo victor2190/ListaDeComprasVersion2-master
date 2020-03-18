@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="cl.ejercicios.listadecomprasversion1.DetallesActivity">
+    tools:context="cl.ejercicios.listadecomprasversion2.DetallesActivity"
+    >
 
     <Button
         android:id="@+id/estado"

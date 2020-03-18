@@ -31,7 +31,7 @@ public class DetallesActivity extends AppCompatActivity {
         producto= ListDeCompras.getInstancia().getProducto(id);
 
          */
-        String nombreProducto=(String) intent.getExtras().get("nombreProducto");
+        String nombreProducto=(String) intent.getExtras().get("nombreProducto");/////////////////
         producto=helper.getProducto(nombreProducto);
 
         //Mostrar la información del producto
