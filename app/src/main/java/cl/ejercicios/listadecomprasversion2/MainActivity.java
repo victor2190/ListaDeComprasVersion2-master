@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         }
         */
          try {
-             ArrayList<Producto> productos=(ArrayList<Producto>) helper.listaProductos();
+             //ArrayList<Producto> productos=(ArrayList<Producto>) helper.listaProductos();
              Intent intent = new Intent(this, ListaProductosActivity.class);
              startActivity(intent);
          }
